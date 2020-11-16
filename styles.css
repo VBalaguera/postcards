@@ -80,6 +80,12 @@ table {
     transition: all .7s;
 }
 
+.contact-and-credits a {
+    margin: 0 1rem; 
+}
+
+
+
 .contact-and-credits:hover {
     opacity: 1; 
     transition: all .7s;
@@ -183,13 +189,14 @@ table {
 
 @media screen and (max-width: 560px) {
     .contact-and-credits a {
-        font-size: .7rem; 
+        font-size: .5rem; 
     }
     .contact-and-credits-text h1 {
         padding: .5rem; 
     }
     .contact-and-credits-text p {
         padding: .5rem; 
-        font-size: 1.4rem; 
+        font-size: 1rem; 
+        line-height: 1.5rem;
     }
 }
