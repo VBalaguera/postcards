@@ -100,7 +100,7 @@ table {
 
 
 
-.postcard-1, .postcard-2, .postcard-3, .postcard-X {
+.postcard-1, .postcard-2, .postcard-3, .postcard-4, .postcard-5, .postcard-6, .postcard-7, .postcard-8, .postcard-9, .postcard-10, .postcard-11, .postcard-12, .postcard-13, .postcard-14, .postcard-15, .postcard-16, .postcard-17, .postcard-18, .postcard-19, .postcard-20, .postcard-21, .postcard-22, .postcard-23, .postcard-24, .postcard-25, .postcard-26, .postcard-27, .postcard-28, .postcard-29, .postcard-30, .postcard-31, .postcard-32, .postcard-33, .postcard-34, .postcard-35, .postcard-36, .postcard-37, .postcard-38, .postcard-39, .postcard-40, .postcard-41, .postcard-42, .postcard-43, .postcard-44, .postcard-45, .postcard-46, .postcard-47, .postcard-48, .postcard-49, .postcard-50, .postcard-51, .postcard-52, .postcard-53, .postcard-54, .postcard-55, .postcard-56, .postcard-57, .postcard-58, .postcard-59, .postcard-60, .postcard-61, .postcard-62, .postcard-63, .postcard-64, .postcard-65, .postcard-66, .postcard-67, .postcard-68,  .postcard-69, .postcard-70, .postcard-71, .postcard-72, .postcard-73, .postcard-74, .postcard-75, .postcard-76, .postcard-77, .postcard-78, .postcard-79,  .postcard-80, .postcard-81, .postcard-82, .postcard-83, .postcard-84,  .postcard-85,  .postcard-86,  .postcard-87,  .postcard-88, .postcard-X {
     width: 100vw;
     height: 100vh;
     position: sticky; 
@@ -112,14 +112,354 @@ table {
 }
 
 .postcard-1 {
-    background-image: url("./images/20201003134518_1.jpg");
+    background-image: url("https://res.cloudinary.com/dn1lqkslj/image/upload/v1605540938/postcards/20201003134518_1_astwwi.jpg");
 }
+
 .postcard-2 {
     background-image: url("./images/20201004140410_1.jpg");
 }
+
 .postcard-3 {
     background-image: url("./images/20201004153214_1.jpg");
 }
+
+.postcard-4 {
+    background-image: url("./images/20201004152253_1.jpg"); 
+}
+
+.postcard-5 {
+    background-image: url("./images/20201004161942_1.jpg"); 
+}
+
+.postcard-6 {
+    background-image: url("./images/20201004190153_1.jpg"); 
+}
+
+.postcard-7 {
+    background-image: url("./images/20201004204057_1.jpg"); 
+}
+
+.postcard-8 {
+    background-image: url("./images/20201005201915_1.jpg"); 
+}
+
+.postcard-9 {
+    background-image: url("./images/20201005214443_1.jpg"); 
+}
+
+.postcard-10 {
+    background-image: url("./images/20201007001857_1.jpg");
+}
+
+.postcard-11 {
+    background-image: url("./images/20201007001954_1.jpg");
+}
+
+.postcard-12 {
+    background-image: url("./images/20201007183418_1.jpg");
+}
+
+.postcard-13 {
+    background-image: url("./images/20201007232926_1.jpg");
+}
+
+.postcard-14 {
+    background-image: url("./images/20201008194708_1.jpg");
+}
+
+.postcard-15 {
+    background-image: url("./images/20201008220438_1.jpg");
+}
+
+.postcard-16 {
+    background-image: url("./images/20201008223843_1.jpg");
+}
+
+.postcard-17 {
+    background-image: url("./images/20201009161456_1.jpg");
+}
+
+.postcard-18 {
+    background-image: url("./images/20201009221742_1.jpg");
+}
+
+.postcard-19 {
+    background-image: url("./images/20201010161444_1.jpg");
+}
+
+.postcard-20 {
+    background-image: url("./images/20201010174855_1.jpg");
+}
+
+.postcard-21 {
+    background-image: url("./images/20201010183952_1.jpg");
+}
+
+.postcard-22 {
+    background-image: url("./images/20201018132023_1.jpg");
+}
+
+.postcard-23 {
+    background-image: url("./images/20201018141016_1.jpg");
+}
+
+.postcard-24 {
+    background-image: url("./images/20201018153425_1.jpg");
+}
+
+.postcard-25 {
+    background-image: url("./images/20201018154615_1.jpg");
+}
+
+.postcard-26 {
+    background-image: url("./images/20201018154935_1.jpg");
+}
+
+.postcard-27 {
+    background-image: url("./images/20201018213720_1.jpg");
+}
+
+.postcard-28 {
+    background-image: url("./images/20201018213735_1.jpg");
+}
+
+.postcard-29 {
+    background-image: url("./images/20201020203027_1.jpg");
+}
+
+.postcard-30 {
+    background-image: url("./images/20201020203329_1.jpg");
+}
+
+.postcard-31 {
+    background-image: url("./images/20201020205421_1.jpg");
+}
+
+.postcard-32 {
+    background-image: url("./images/20201020211515_1.jpg");
+}
+
+.postcard-33 {
+    background-image: url("./images/20201020212941_1.jpg");
+}
+
+.postcard-34 {
+    background-image: url("./images/20201020213756_1.jpg");
+}
+
+.postcard-35 {
+    background-image: url("./images/20201020214113_1.jpg");
+}
+
+.postcard-36 {
+    background-image: url("./images/20201020222112_1.jpg");
+}
+
+.postcard-37 {
+    background-image: url("./images/20201020223358_1.jpg");
+}
+
+.postcard-38 {
+    background-image: url("./images/20201020223639_1.jpg");
+}
+
+.postcard-39 {
+    background-image: url("./images/20201020230139_1.jpg");
+}
+
+.postcard-40 {
+    background-image: url("./images/20201021223957_1.jpg");
+}
+
+.postcard-41 {
+    background-image: url("./images/20201021235442_1.jpg");
+}
+
+.postcard-42 {
+    background-image: url("./images/20201022165544_1.jpg");
+}
+
+.postcard-43 {
+    background-image: url("./images/20201022165613_1.jpg");
+}
+
+.postcard-44 {
+    background-image: url("./images/20201022165618_1.jpg");
+}
+
+.postcard-45 {
+    background-image: url("./images/20201022170548_1.jpg");
+}
+
+.postcard-46 {
+    background-image: url("./images/20201025003829_1.jpg");
+}
+
+.postcard-47 {
+    background-image: url("./images/20201025013245_1.jpg");
+}
+
+.postcard-48 {
+    background-image: url("./images/20201026222553_1.jpg");
+}
+
+.postcard-49 {
+    background-image: url("./images/20201026223342_1.jpg");
+}
+
+.postcard-50 {
+    background-image: url("./images/20201028192025_1.jpg");
+}
+
+.postcard-51 {
+    background-image: url("./images/20201028194141_1.jpg");
+}
+
+.postcard-52 {
+    background-image: url("./images/20201028202017_1.jpg");
+}
+
+.postcard-53 {
+    background-image: url("./images/20201028212923_1.jpg");
+}
+
+.postcard-54 {
+    background-image: url("./images/20201029145709_1.jpg");
+}
+
+.postcard-55 {
+    background-image: url("./images/20201029154637_1.jpg");
+}
+
+.postcard-56 {
+    background-image: url("./images/20201109145645_1.jpg");
+}
+
+.postcard-57 {
+    background-image: url("./images/20201109211300_1.jpg");
+}
+
+.postcard-58 {
+    background-image: url("./images/20201109213707_1.jpg");
+}
+
+.postcard-59 {
+    background-image: url("./images/20201109215202_1.jpg");
+}
+
+.postcard-60 {
+    background-image: url("./images/20201109220419_1.jpg");
+}
+
+.postcard-61 {
+    background-image: url("./images/20201109220601_1.jpg");
+}
+
+.postcard-62 {
+    background-image: url("./images/20201109220649_1.jpg");
+}
+
+.postcard-63 {
+    background-image: url("./images/20201109223421_1.jpg");
+}
+
+.postcard-64 {
+    background-image: url("./images/20201109225042_1.jpg");
+}
+
+.postcard-65 {
+    background-image: url("./images/20201110151343_1.jpg");
+}
+
+.postcard-66 {
+    background-image: url("./images/20201110152524_1.jpg");
+}
+
+.postcard-67 {
+    background-image: url("./images/20201110182642_1.jpg");
+}
+
+.postcard-68 {
+    background-image: url("./images/20201110183310_1.jpg");
+}
+
+.postcard-69 {
+    background-image: url("./images/20201110183940_1.jpg");
+}
+
+.postcard-70 {
+    background-image: url("./images/20201110185702_1.jpg");
+}
+
+.postcard-71 {
+    background-image: url("./images/20201110194635_1.jpg");
+}
+
+.postcard-72 {
+    background-image: url("./images/20201110195053_1.jpg");
+}
+
+.postcard-73 {
+    background-image: url("./images/20201110230155_1.jpg");
+}
+
+.postcard-74 {
+    background-image: url("./images/20201110230252_1.jpg");
+}
+
+.postcard-75 {
+    background-image: url("./images/20201110231548_1.jpg");
+}
+
+.postcard-76 {
+    background-image: url("./images/20201110233725_1.jpg");
+}
+
+.postcard-77 {
+    background-image: url("./images/20201111000145_1.jpg");
+}
+
+.postcard-78 {
+    background-image: url("./images/20201111164818_1.jpg");
+}
+
+.postcard-79 {
+    background-image: url("./images/20201111213755_1.jpg");
+}
+
+.postcard-80 {
+    background-image: url("./images/20201111222347_1.jpg");
+}
+
+.postcard-81 {
+    background-image: url("./images/20201111224830_1.jpg");
+}
+
+.postcard-82 {
+    background-image: url("./images/20201111225203_1.jpg");
+}
+
+.postcard-83 {
+    background-image: url("./images/20201111232111_1.jpg");
+}
+
+.postcard-84 {
+    background-image: url("./images/20201112120425_1.jpg");
+}
+
+.postcard-85 {
+    background-image: url("./images/20201112135516_1.jpg");
+}
+
+.postcard-86 {
+    background-image: url("./images/20201112140148_1.jpg");
+}
+
+.postcard-87 {
+    background-image: url("./images/20201112143200_1.jpg");
+}
+
+
 
 .postcard-X {
     background-image: url("./images/20201110151846_1 contact and credits.jpg");
@@ -178,8 +518,11 @@ table {
         opacity: 1; 
     }
 
-    .postcard-1, .postcard-2, .postcard-3 {
+    .postcard-1, .postcard-2, .postcard-3, .postcard-4, .postcard-5, .postcard-6, .postcard-7, .postcard-8, .postcard-9, .postcard-10, .postcard-11, .postcard-12, .postcard-13, .postcard-14, .postcard-15, .postcard-16, .postcard-17, .postcard-18, .postcard-19, .postcard-20, .postcard-21, .postcard-22, .postcard-23, .postcard-24, .postcard-25, .postcard-26, .postcard-27, .postcard-28, .postcard-29, .postcard-30, .postcard-31, .postcard-32, .postcard-33, .postcard-34, .postcard-35, .postcard-36, .postcard-37, .postcard-38, .postcard-39, .postcard-40, .postcard-41, .postcard-42, .postcard-43, .postcard-44, .postcard-45, .postcard-46, .postcard-47, .postcard-48, .postcard-49, .postcard-50, .postcard-51, .postcard-52, .postcard-53, .postcard-54, .postcard-55, .postcard-56, .postcard-57, .postcard-58, .postcard-59, .postcard-60, .postcard-61, .postcard-62, .postcard-63, .postcard-64, .postcard-65, .postcard-66, .postcard-67, .postcard-68,  .postcard-69, .postcard-70, .postcard-71, .postcard-72, .postcard-73, .postcard-74, .postcard-75, .postcard-76, .postcard-77, .postcard-78, .postcard-79,  .postcard-80, .postcard-81, .postcard-82, .postcard-83, .postcard-84,  .postcard-85,  .postcard-86,  .postcard-87,  .postcard-88 {
         background-size: contain; 
+    }
+    .postcard-text-content {
+        font-size: 1rem;
     }
 
     .postcard-text {
@@ -190,7 +533,9 @@ table {
 @media screen and (max-width: 560px) {
     .contact-and-credits a {
         font-size: .5rem; 
+        margin: 0 .3rem;
     }
+    
     .contact-and-credits-text h1 {
         padding: .5rem; 
     }
