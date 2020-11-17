@@ -20,6 +20,8 @@ function myCursor(e){
     customCursor.style.left = e.clientX + 'px'; 
     //at this point, we have the circle moving with the cursor, but it is uncentered/on top;  transform: translate(-50%, -50%) will fix it. 
     //also, we cannot select anything because the div remains on top of everything else on the page, pointer-events: none; will fix it. 
+
+    //to fix unwanted scrolling, I just changed e.pageX and e.pageY to e.clientX and e.clientY. 
 }
 
 //custom cursor animation:
