@@ -44,7 +44,7 @@ function is_touch_device4() {
 console.log(is_touch_device4());
 
 function hiding_custom_cursor() {
-    if (is_touch_device4 === true) {
+    if (is_touch_device4 == true) {
         document.querySelector(".cursor").state.display = 'none';
     } else {
         return null; 
