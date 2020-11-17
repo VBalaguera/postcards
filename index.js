@@ -22,3 +22,8 @@ function updatesFirst() {
     divs.sort((a, b) => b.id - a.id);
     divs.forEach(divs => main.appendChild(divs));
 }
+
+
+
+
+
