@@ -24,13 +24,4 @@ function myCursor(e){
     //to fix unwanted scrolling, I just changed e.pageX and e.pageY to e.clientX and e.clientY. 
 }
 
-//custom cursor animation:
-navLinks.forEach(link => {
-    link.addEventListener('mouseover', () => {
-        customCursor.classList.add('link-grow')
-    })
-})
 
-
-
-//scrolling issues fixing: 

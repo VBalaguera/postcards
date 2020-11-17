@@ -580,8 +580,4 @@ table {
     position: fixed;
     /*position: absolute derails everything*/
     z-index: 900;
-
-
-    
-
 }
