@@ -113,7 +113,7 @@ table {
 }
 
 .postcard-1 {
-    background-image: url("https://res.cloudinary.com/dn1lqkslj/image/upload/v1605540938/postcards/20201003134518_1_astwwi.jpg");
+    background-image: url("https://i.ibb.co/HYfqC1k/20201003134518-1.jpg");
 }
 
 .postcard-2 {
@@ -555,7 +555,7 @@ table {
     height: 2.3rem;
     border: 3px solid rgb(200, 200, 200);
     border-radius: 50%;  
-    position: absolute; 
+    position: fixed; 
     top: 50%;
     left: 50%; 
     z-index: 900;  
@@ -576,7 +576,7 @@ table {
     height: .1rem; 
     background: white; 
     border-radius: 50%;
-    position: absolute;
+    position: fixed;
     z-index: 900;
 
     opacity: .9; 
