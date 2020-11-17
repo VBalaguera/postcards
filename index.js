@@ -25,17 +25,33 @@ function updatesFirst() {
 
 
 // hiding custom cursor on mobile 
-function is_touch_device() {  
-    try {  
-      document.createEvent("TouchEvent");  
-      return true;  
-    } catch (e) {  
-      return false;  
-    }  
-  }
-  
-  console.log(is_touch_device());
+function is_touch_device4() {
+    if ("ontouchstart" in window || window.TouchEvent)
+        return true;
 
+    if (window.DocumentTouch && document instanceof DocumentTouch)
+        return true;
+
+    const prefixes = ["", "-webkit-", "-moz-", "-o-", "-ms-"];
+    const queries = prefixes.map(prefix => `(${prefix}touch-enabled)`);
+
+    return window.matchMedia(queries.join(",")).matches;
+
+    
+}
+
+
+console.log(is_touch_device4());
+
+function hiding_custom_cursor() {
+    if (is_touch_device4 === true) {
+        document.querySelector(".cursor").state.display = 'none';
+    } else {
+        return null; 
+    }
+}
+
+hiding_custom_cursor()
 
 //fade out transition on scroll for all postcards
 
