@@ -101,7 +101,7 @@ table {
 
 
 
-.postcard-1, .postcard-2, .postcard-3, .postcard-4, .postcard-5, .postcard-6, .postcard-7, .postcard-8, .postcard-9, .postcard-10, .postcard-11, .postcard-12, .postcard-13, .postcard-14, .postcard-15, .postcard-16, .postcard-17, .postcard-18, .postcard-19, .postcard-20, .postcard-21, .postcard-22, .postcard-23, .postcard-24, .postcard-25, .postcard-26, .postcard-27, .postcard-28, .postcard-29, .postcard-30, .postcard-31, .postcard-32, .postcard-33, .postcard-34, .postcard-35, .postcard-36, .postcard-37, .postcard-38, .postcard-39, .postcard-40, .postcard-41, .postcard-42, .postcard-43, .postcard-44, .postcard-45, .postcard-46, .postcard-47, .postcard-48, .postcard-49, .postcard-50, .postcard-51, .postcard-52, .postcard-53, .postcard-54, .postcard-55, .postcard-56, .postcard-57, .postcard-58, .postcard-59, .postcard-60, .postcard-61, .postcard-62, .postcard-63, .postcard-64, .postcard-65, .postcard-66, .postcard-67, .postcard-68,  .postcard-69, .postcard-70, .postcard-71, .postcard-72, .postcard-73, .postcard-74, .postcard-75, .postcard-76, .postcard-77, .postcard-78, .postcard-79,  .postcard-80, .postcard-81, .postcard-82, .postcard-83, .postcard-84,  .postcard-85,  .postcard-86,  .postcard-87,  .postcard-88, .postcard-X {
+.postcard-1, .postcard-2, .postcard-3, .postcard-4, .postcard-5, .postcard-6, .postcard-7, .postcard-8, .postcard-9, .postcard-10, .postcard-11, .postcard-12, .postcard-13, .postcard-14, .postcard-15, .postcard-16, .postcard-17, .postcard-18, .postcard-19, .postcard-20, .postcard-21, .postcard-22, .postcard-23, .postcard-24, .postcard-25, .postcard-26, .postcard-27, .postcard-28, .postcard-29, .postcard-30, .postcard-31, .postcard-32, .postcard-33, .postcard-34, .postcard-35, .postcard-36, .postcard-37, .postcard-38, .postcard-39, .postcard-40, .postcard-41, .postcard-42, .postcard-43, .postcard-44, .postcard-45, .postcard-46, .postcard-47, .postcard-48, .postcard-49, .postcard-50, .postcard-51, .postcard-52, .postcard-53, .postcard-54, .postcard-55, .postcard-56, .postcard-57, .postcard-58, .postcard-59, .postcard-60, .postcard-61, .postcard-62, .postcard-63, .postcard-64, .postcard-65, .postcard-66, .postcard-67, .postcard-68,  .postcard-69, .postcard-70, .postcard-71, .postcard-72, .postcard-73, .postcard-74, .postcard-75, .postcard-76, .postcard-77, .postcard-78, .postcard-79,  .postcard-80, .postcard-81, .postcard-82, .postcard-83, .postcard-84,  .postcard-85,  .postcard-86,  .postcard-87,  .postcard-88, .postcard-89, .postcard-90, .postcard-91, .postcard-92, .postcard-93, .postcard-94, .postcard-95, .postcard-96, .postcard-97, .postcard-98, .postcard-99, .postcard-100,  .postcard-X {
     width: 100vw;
     height: 100vh;
     position: sticky; 
@@ -458,6 +458,61 @@ table {
 
 .postcard-87 {
     background-image: url("./images/20201112143200_1.jpg");
+}
+
+.postcard-88 {
+    background-image: url("https://i.ibb.co/qpGhRMF/20201117190109-1.jpg");
+}
+
+
+.postcard-89 {
+    background-image: url("https://i.ibb.co/Lg1mypf/20201117190508-1.jpg");
+}
+
+.postcard-90 {
+    background-image: url("https://i.ibb.co/x3FgTCy/20201117191036-1.jpg");
+}
+
+.postcard-91 {
+    background-image: url("https://i.ibb.co/7KsPvQp/20201117192208-1.jpg");
+}
+
+
+.postcard-92 {
+    background-image: url("https://i.ibb.co/pRLjRb2/20201117211333-1.jpg");
+}
+
+
+.postcard-93 {
+    background-image: url("https://i.ibb.co/R9TvdGj/20201117211128-1.jpg");
+}
+
+.postcard-94 {
+    background-image: url("https://i.ibb.co/djp58Wz/20201117212104-1.jpg");
+}
+
+.postcard-95 {
+    background-image: url("https://i.ibb.co/XZxCTdq/20201117213324-1.jpg");
+}
+
+.postcard-96 {
+    background-image: url("https://i.ibb.co/drJFNFH/20201117213633-1.jpg");
+}
+
+.postcard-97 {
+    background-image: url("https://i.ibb.co/ggCjMzK/20201117215725-1.jpg");
+}
+
+.postcard-98 {
+    background-image: url("https://i.ibb.co/bKSdr8t/20201117215902-1.jpg");
+}
+
+.postcard-99 {
+    background-image: url("https://i.ibb.co/JC5g7hk/20201117220308-1.jpg");
+}
+
+.postcard-100 {
+    background-image: url("https://i.ibb.co/t3X2zcy/20201117221828-1.jpg");
 }
 
 
