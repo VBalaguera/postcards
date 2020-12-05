@@ -62,7 +62,7 @@ table {
 
 .contact-and-credits {
     width: 100vw;
-    height: 8%; 
+    min-height: 8vh; 
     background-color: rgba(0,0,0,  .2);
 
     display: flex; 
@@ -82,8 +82,31 @@ table {
     transition: all .7s;
 }
 
-.contact-and-credits a {
+.return-to-index {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin: auto; 
+}
+
+
+
+.nav-links {
+    display: flex; 
+    justify-content: space-around;
+    width: 35%; 
+}
+
+.nav-links a {
     margin: 0 1rem; 
+}
+
+.nav-links a {
+    transition: 300ms ease;
+}
+.nav-links a:hover {
+    color: #E1121B; 
+    transition: 300ms ease; 
 }
 
 
@@ -93,6 +116,29 @@ table {
     transition: all .7s;
 }
 
+.burger {
+    display: none; 
+}
+.line1, .line2, .line3, .line4 {
+	height: 2px;
+	background-color: #E1121B; 
+	margin: 3px 0; 
+	transition: all .3s ease; 
+}
+.line1 {
+	width: 1.1rem; 
+}
+.line2 {
+	width: .825rem; 
+}
+.line3 {
+	width: .275rem;
+}
+.line4 {
+	width: .55rem;
+}
+
+
 .postcard {
     width: 100vw;
     height: 100vh;
@@ -101,12 +147,12 @@ table {
 
 
 
-.postcard-1, .postcard-2, .postcard-3, .postcard-4, .postcard-5, .postcard-6, .postcard-7, .postcard-8, .postcard-9, .postcard-10, .postcard-11, .postcard-12, .postcard-13, .postcard-14, .postcard-15, .postcard-16, .postcard-17, .postcard-18, .postcard-19, .postcard-20, .postcard-21, .postcard-22, .postcard-23, .postcard-24, .postcard-25, .postcard-26, .postcard-27, .postcard-28, .postcard-29, .postcard-30, .postcard-31, .postcard-32, .postcard-33, .postcard-34, .postcard-35, .postcard-36, .postcard-37, .postcard-38, .postcard-39, .postcard-40, .postcard-41, .postcard-42, .postcard-43, .postcard-44, .postcard-45, .postcard-46, .postcard-47, .postcard-48, .postcard-49, .postcard-50, .postcard-51, .postcard-52, .postcard-53, .postcard-54, .postcard-55, .postcard-56, .postcard-57, .postcard-58, .postcard-59, .postcard-60, .postcard-61, .postcard-62, .postcard-63, .postcard-64, .postcard-65, .postcard-66, .postcard-67, .postcard-68,  .postcard-69, .postcard-70, .postcard-71, .postcard-72, .postcard-73, .postcard-74, .postcard-75, .postcard-76, .postcard-77, .postcard-78, .postcard-79,  .postcard-80, .postcard-81, .postcard-82, .postcard-83, .postcard-84,  .postcard-85,  .postcard-86,  .postcard-87,  .postcard-88, .postcard-89, .postcard-90, .postcard-91, .postcard-92, .postcard-93, .postcard-94, .postcard-95, .postcard-96, .postcard-97, .postcard-98, .postcard-99, .postcard-100,  .postcard-X {
+.postcard-1, .postcard-2, .postcard-3, .postcard-4, .postcard-5, .postcard-6, .postcard-7, .postcard-8, .postcard-9, .postcard-10, .postcard-11, .postcard-12, .postcard-13, .postcard-14, .postcard-15, .postcard-16, .postcard-17, .postcard-18, .postcard-19, .postcard-20, .postcard-21, .postcard-22, .postcard-23, .postcard-24, .postcard-25, .postcard-26, .postcard-27, .postcard-28, .postcard-29, .postcard-30, .postcard-31, .postcard-32, .postcard-33, .postcard-34, .postcard-35, .postcard-36, .postcard-37, .postcard-38, .postcard-39, .postcard-40, .postcard-41, .postcard-42, .postcard-43, .postcard-44, .postcard-45, .postcard-46, .postcard-47, .postcard-48, .postcard-49, .postcard-50, .postcard-51, .postcard-52, .postcard-53, .postcard-54, .postcard-55, .postcard-56, .postcard-57, .postcard-58, .postcard-59, .postcard-60, .postcard-61, .postcard-62, .postcard-63, .postcard-64, .postcard-65, .postcard-66, .postcard-67, .postcard-68,  .postcard-69, .postcard-70, .postcard-71, .postcard-72, .postcard-73, .postcard-74, .postcard-75, .postcard-76, .postcard-77, .postcard-78, .postcard-79,  .postcard-80, .postcard-81, .postcard-82, .postcard-83, .postcard-84,  .postcard-85,  .postcard-86,  .postcard-87,  .postcard-88, .postcard-89, .postcard-90, .postcard-91, .postcard-92, .postcard-93, .postcard-94, .postcard-95, .postcard-96, .postcard-97, .postcard-98, .postcard-99, .postcard-100, .postcard-101, .postcard-102, .postcard-103, .postcard-104, .postcard-105, .postcard-106, .postcard-107, .postcard-X {
     width: 100vw;
     height: 100vh;
     position: sticky; 
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: black;
@@ -515,6 +561,34 @@ table {
     background-image: url("https://i.ibb.co/t3X2zcy/20201117221828-1.jpg");
 }
 
+.postcard-101 {
+    background-image: url("https://i.ibb.co/L0SGPR8/20201117222545-1.jpg");
+}
+
+.postcard-102 {
+    background-image: url("https://i.ibb.co/3S6L6Tt/20201117222725-1.jpg");
+}
+
+.postcard-103 {
+    background-image: url("https://i.ibb.co/TqdxBVm/20201117224020-1.jpg");
+}
+
+.postcard-104 {
+    background-image: url("https://i.ibb.co/WcSb6bf/20201117224156-1.jpg");
+}
+
+.postcard-105 {
+    background-image: url("https://i.ibb.co/YWcc6mL/20201117225631-1.jpg");
+}
+
+.postcard-106 {
+    background-image: url("https://i.ibb.co/RbjCWBY/20201117231513-1.jpg");
+}
+
+.postcard-107 {
+    background-image: url("https://i.ibb.co/M1kQYhs/20201117232242-1.jpg");
+}
+
 
 
 .postcard-X {
@@ -522,8 +596,8 @@ table {
 }
 
 .postcard-text {
-    width: 100vw;
-    height: 8%; 
+    width: 100%;
+    height: 7%; 
     background-color: rgba(0, 0, 0, .5);
 
     display: flex; 
@@ -532,6 +606,10 @@ table {
 
     position: sticky; 
     bottom: 0; 
+    left: 0;
+    right: 0; 
+    margin: 0; 
+    padding: 0; 
 
 }
 
@@ -586,11 +664,73 @@ table {
     }
 }
 
-@media screen and (max-width: 560px) {
-    .contact-and-credits a {
-        font-size: .5rem; 
-        margin: 0 .3rem;
+/*responsive nav menu*/
+@media screen and (max-width: 1060px) {
+    .nav-links li a {
+        font-size: .8rem; 
     }
+}
+
+@media screen and (max-width: 900px) {
+
+    .burger {
+        display: block; 
+        cursor: pointer; 
+    }
+
+    .nav-links {
+        width: 100%; 
+        position: absolute; 
+        top: 8vh; 
+        right: 0px; 
+        height: 92vh; 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;
+        background-color: black; 
+        transform: translateX(100%);
+        transition: transform .5s ease-in;
+    }
+
+    .nav-links li {
+        margin: 1rem 0;
+    }
+}
+
+.nav-links-active {
+	transform: translateX(0%); 
+}
+
+@keyframes nav-links-fade {
+	from {
+		opacity: 0; 
+		transform: translateX(50px);
+	}
+	to {
+		opacity: 1; 
+		transform: translateX(0px); 
+	}
+}
+
+/*reshaping the "burger"*/
+.toggle .line1 {
+	transform: rotate(45deg) translate(5px, 6px);
+}
+.toggle .line2 {
+	transform: rotate(-45deg) translate(-3px, 3px);
+}
+.toggle .line3 {
+	transform: rotate(-45deg) translate(12px, 2.5px);
+}
+.toggle .line4 {
+	transform: rotate(-45deg) translate(5px, -2.5px);
+}
+
+
+
+
+@media screen and (max-width: 560px) {
     
     .contact-and-credits-text h1 {
         padding: .5rem; 
