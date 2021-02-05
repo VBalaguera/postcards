@@ -78,7 +78,7 @@ table {
     letter-spacing: .5px;
     font-size: 1rem;
 
-    opacity: 0; 
+    opacity: .5; 
     transition: all .7s;
 }
 
@@ -626,7 +626,7 @@ table {
     height: 50%; 
     background-color: rgba(0, 0, 0, .5);
     position: fixed; 
-    top: 60%; 
+    top: 50%; 
     text-align: center; 
 }
 .contact-and-credits-text h1 {
@@ -642,8 +642,16 @@ table {
     font-weight: 400; 
     letter-spacing: .5px;
     font-size: 1.5rem;
-    line-height: 2.2rem;
+    line-height: 2.4rem;
     padding: 1rem; 
+}
+
+.contact-and-credits-text a {
+    transition: 300ms ease;
+}
+.contact-and-credits-text a:hover {
+    color: #E1121B; 
+    transition: 300ms ease; 
 }
 
 @media screen and (max-width: 1320px) {
